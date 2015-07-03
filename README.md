@@ -20,3 +20,7 @@
 1. IGAW 홈페이지에서 발급받은 **팝업 스페이스 키**를 MainActivity.java 파일에 입력
 1. 실행
 1. 운영 > 라이브오퍼레이션 > 공지팝업 > 공지팝업 등록 메뉴에서 공지팝업 추가
+
+# Igaworks LiveOps Popup Notice 연동하기
+연동 가이드와 샘플 프로젝트를 참고하여 연동을 진행합니다. </br>
+<a href="http://help.igaworks.com/hc/ko/3_3/Content/Article/liveops_noti_aos" target="_blank">Igaworks LiveOps Popup Notice 연동문서 바로가기</a>
