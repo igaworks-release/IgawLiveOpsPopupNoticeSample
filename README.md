@@ -17,4 +17,6 @@
 
 # LiveOps Popup Notice Sample 실행
 1. IGAW 홈페이지에서 발급받은 **앱키, 해시키**를 AndroidManifest.xml 파일에 입력
+1. IGAW 홈페이지에서 발급받은 **팝업 스페이스 키**를 MainActivity.java 파일에 입력
 1. 실행
+1. 운영 > 라이브오퍼레이션 > 공지팝업 > 공지팝업 등록에서 공지팝업 추가
