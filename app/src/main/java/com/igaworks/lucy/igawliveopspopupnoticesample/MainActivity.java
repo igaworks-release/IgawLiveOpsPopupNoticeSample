@@ -38,7 +38,6 @@ public class MainActivity extends ActionBarActivity {
         // Your Code
         TelephonyManager manager =  (TelephonyManager)getSystemService(MainActivity.this.TELEPHONY_SERVICE);
         usn = manager.getDeviceId().toString();
-        usn = usn+"a";
         encryptUsn = Base64.encodeToString(usn.getBytes(), 0);
 
         // Igaworks Common
@@ -60,6 +59,7 @@ public class MainActivity extends ActionBarActivity {
         /*
          * Your Code
          */
+
     }
 
 
@@ -80,6 +80,11 @@ public class MainActivity extends ActionBarActivity {
         // Igaworks LiveOps PopupNotice Optional
         IgawLiveOps.setTargetingData(MainActivity.this, usergroupKey, "String" );
         Log.d(tag, "setTargetingData ::: " + usergroupKey);
+
+        // **Only for TEST **
+        // Igaworks LiveOps PopupNotice Optional
+        IgawLiveOps.flush(MainActivity.this);
+        Log.d(tag, "IgawLiveOps ::: flush");
     }
 
     // Your Code
@@ -146,9 +151,14 @@ public class MainActivity extends ActionBarActivity {
         IgawCommon.endSession();
         Log.d(tag, "endSession ::: MainActivity");
 
+
+
         /*
          * Your Code
          */
     }
 
+
 }
+
+
